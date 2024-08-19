@@ -1,0 +1,11 @@
+{
+  "name": "1-para-muitos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "author": "Maria",
+  "license": "ISC"
+}
