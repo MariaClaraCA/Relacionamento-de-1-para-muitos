@@ -27,7 +27,7 @@ export default class Cliente {
 
     toJSON() {
         return {
-            codigo: this.#codigo,
+            clienteId: this.#codigo,
             nome: this.#nome
         };
     }

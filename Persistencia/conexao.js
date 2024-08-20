@@ -6,9 +6,9 @@ export default async function conectar() {
     } else {
         const pool = mysql.createPool({
             host: 'localhost',
-            user: 'root', // Substitua com seu usuário
-            password: '',  // Substitua com sua senha
-            database: 'padaria', // Atualizado para o nome do banco de dados "padaria"
+            user: 'root', 
+            password: '', 
+            database: 'padaria', 
             waitForConnections: true,
             connectionLimit: 10,
             maxIdle: 10,
